@@ -13,7 +13,7 @@ for (let i = 0; i < 20; i++) {
   images.push(
     `
     <picture class="image">
-      <img src="/images/image-${ranNums.next().value}.jpg" alt="Grid Gallery Image">
+      <img src="./images/image-${ranNums.next().value}.jpg" alt="Grid Gallery Image">
     </picture>
     `
   )
